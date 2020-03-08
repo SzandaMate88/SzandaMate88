@@ -12,11 +12,10 @@ export { };
 //
 // The square should have as many lines as lineCount is
 
-let lineCount: number = 6;
-let charCount: number = 6;
+let lineCount: number = 9;
+let charCount: number = 7;
 let whitespace: number = charCount - 2;
-/* let row: string = ''; */
-let char: string = '%';
+let char: string = '$';
 
 for (let i: number = lineCount; i > 0; i--) {
 
