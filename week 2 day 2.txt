@@ -1,0 +1,39 @@
+week 2 day 2 expressions
+
+node.js javascript kódot használ nem csak böngészőben.
+java--> compiled: lefordítja más nyelvre futás előtt
+javascript ---> interpreted: azonnal fut a saját nyelvén, nem előre javítja ki a hibákat
+
+3 != 3 "nem egyenlő"
+
+|| = vagy
+&& = és
+
+
+% = kiadja a maradékot
+
+var helloTExt = "Hello mindenki";
+
+var helloTExt : sting  megadja a fajtájátl
+
+
+let mySentence: string = 'mar'
+while (mySentence.length < 100){
+
+    mySentence +='alma';
+
+
+console.log('mennnnyyeeee')
+}
+
+
+let fruit: string = 'pear'
+switch (fruit) {
+
+    case 'alma':
+        console.log('red')
+    case 'pear':
+        console.log('yellow')
+    case 'lime':
+        console.log ('green')    
+}
