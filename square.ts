@@ -1,9 +1,6 @@
 'use strict';
 export { };
 
-
-
-
 // Write a program that draws a square like this:
 //
 // %%%%%%
@@ -18,21 +15,25 @@ export { };
 let lineCount: number = 6;
 let charCount: number = 6;
 let whitespace: number = charCount - 2;
-let row: string = '';
+/* let row: string = ''; */
 let char: string = '%';
-let side: string = '%    %';
 
 for (let i: number = lineCount; i > 0; i--) {
 
+  let row: string = '';
+
   if (i === lineCount || i === 1 ) {
-    row='';
     for (let j: number = charCount; j > 0; j--) {
       //row+='%'
       //row=row.concat('%')
       row = row.concat(char);
     }
-  } else {
-    row = side;
+  } else if (i !== lineCount && i !== 1) {
+    row = row.concat(char);
+    for (let j: number = whitespace; j > 0; j--) {
+      row = row.concat(' ');
+    }
+    row = row.concat(char);
   }
   console.log(row);
 }
