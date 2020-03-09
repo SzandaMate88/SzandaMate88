@@ -14,23 +14,20 @@ export{}
 //
 let lineCount : number = 8;
 let rowCount : number = 8;
-let symb : string = '';
+let char : string = '%';
 
-for ( let i: number = 8; i > 0; i--) {
-  symb =''
-  if( i % 2 != 0){
-    symb = symb.concat('')
-   
-  } else if( i % 2 === 0 ) {
-    symb = symb.concat('%')
-    
-  }
-  for (let j : number = 8; j > 0;j--) {
-    if ( j % 2 != 0) {
-      symb = symb.concat(' ')
-    } else if ( j %2 === 0) {
-      symb = symb.concat('%')
+for (let i : number = 0; i<  8; i++){
+  let symb : string = '';
+  if (i %2 === 0) {
+    symb = symb.concat(char);
+    symb = '';
+   }
+  for(let j: number = 0; j< 8; j++){
+    if((j+i)%2 !== 0) {
+     symb = symb.concat(' ');
+    }else{
+      symb = symb.concat(char);
     }
-  }console.log(symb)
+  }console.log(symb);
+}
 
-} 
