@@ -1,5 +1,4 @@
 export{};
-
 let koz = ''
 let csil = '*'
 let lineCount = 4

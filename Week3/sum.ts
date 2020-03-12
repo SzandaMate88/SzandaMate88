@@ -5,14 +5,12 @@ export{};
 function sum(a:number,b:number,c:number):number{
 for(let i:number = 0; i <= c; i++) {
   if( i === c) {
-    return a
+    return a;
   }else{
-    a = (a+b)
-    b += 1
-  }
-  
-  
+    a = (a+b);
+    b += 1;
+  } 
 }
+}let k:number = sum(0,1,23);
+console.log (k);
 
-}let k:number = sum(0,1,5)
-console.log (k)

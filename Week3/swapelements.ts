@@ -11,4 +11,3 @@ names.push('Arthur','Boe', 'Chloe');
 
 console.log(names)
 
-/* [arr[0], arr[1]] = [arr[1], arr[0]]; */

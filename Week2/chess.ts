@@ -14,7 +14,7 @@ export{}
 //
 let lineCount : number = 8;
 let rowCount : number = 8;
-let char : string = '%';
+let char : string = '[]';
 
 for (let i : number = 0; i<  8; i++){
   let symb : string = '';

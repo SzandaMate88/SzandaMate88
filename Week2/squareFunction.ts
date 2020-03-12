@@ -25,4 +25,4 @@ function printMySquare(lineCount: number, charCount: number, char: string): void
   }
 }
 
-printMySquare(9,7,'$')
+printMySquare(9,7,'%')

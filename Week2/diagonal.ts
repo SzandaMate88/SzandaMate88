@@ -14,7 +14,8 @@ export { };
 
 let lineCount: number = 9;
 let charCount: number = 7;
-let whitespace: number = charCount - 2;
+const whitespace: string = ' ';
+let whitespaceCount: number = charCount - 2;
 let char: string = '$';
 
 for (let i: number = lineCount; i > 0; i--) {
@@ -27,18 +28,16 @@ for (let i: number = lineCount; i > 0; i--) {
       //row=row.concat('%')
       row = row.concat(char);
     }
-  } else if (i !== lineCount && i !== 1) {
-    row = row.concat(char);
-    for (let j: number = whitespace; j > 0; j--) {
+  } else if (i !== lineCount && i !== 1 || lineCount === i) {
+    /* row = row.concat(char);
+    for (let j: number = whitespaceCount; j > 0; j--) {
       row = row.concat(' ');
     }
-    row = row.concat(char);
+    row = row.concat(char); */
+    row = char + whitespace.repeat(whitespaceCount) + char
+
   }
   console.log(row);
 }
 
-
-
-
-
-
+// MDM string repeat method

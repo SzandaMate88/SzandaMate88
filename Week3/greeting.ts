@@ -4,7 +4,7 @@
 // -  Greet `nameToGreet`
 
 
-let nameToGreet: string = 'Green Fox';
+let nameToGreet: string = ' Green Fox';
 let i: string = 'Greetings, dear';
 function Greet(i:string, nameToGreet):string {
   return (i.concat(nameToGreet));

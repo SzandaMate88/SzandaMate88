@@ -5,10 +5,10 @@ export{}
 //    appends an 'a' character to its end and returns with a string
 // -  Print the result of `appendAFunc(typo)
 
-let typo: string = 'alm';
+let typo: string = 'kort';
 
 function appendAFunc(typo: string, b: string) {
 return typo.concat(b)
 }
-let j: string = appendAFunc(typo, 'a');
-console.log(j)
+let j: string = appendAFunc(typo, 'e');
+console.log(j);
