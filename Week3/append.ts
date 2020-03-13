@@ -8,7 +8,7 @@ export{}
 let typo: string = 'kort';
 
 function appendAFunc(typo: string, b: string) {
-return typo.concat(b)
+return typo.concat(b);
 }
 let j: string = appendAFunc(typo, 'e');
 console.log(j);
