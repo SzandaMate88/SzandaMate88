@@ -4,15 +4,13 @@ export{};
 // -  Change the 8 to 4 with the `.map` method 
 // -  Print the fourth element as a test
 
-let sortedNumbers: number[] = [1, 2, 3, 8, 5, 6]
+let sortedNumbers: number[] = [1, 2, 3, 8, 5, 6];
 
-
-
-let finalNum: number[]=sortedNumbers.map((value: number, index: number) =>{
-  if(value === 8){
-    return 4
+let finalNum: number[]=sortedNumbers.map((value: number, index: number) => {
+  if(value === 8) {
+    return 4;
   }else{
-    return value
+    return value;
   }
 })
-console.log(finalNum)
+console.log(finalNum);

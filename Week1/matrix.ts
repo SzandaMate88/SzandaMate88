@@ -23,18 +23,10 @@ for (let i = 0; i < lineCount ; i++) {
   let output : string = '';
   for (let j = rowCount; j > 0; j--) {
     if ( j != (i+1) ) {
-      
       output = output.concat(symb1);
-      
-      
-
     } else {
       output = output.concat(symb2);
     }
-    
-    
   }console.log(output);
-  
-  
  } 
 
