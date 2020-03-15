@@ -8,17 +8,7 @@ export {};
 
 let example: string = 'In a dishwasher far far away';
 
-console.log(example)
-
 example = example.replace(/dishwasher/, 'galaxy')
-
-
-
-/* let proba: string = ' Unicorns and rainbows'
-console.log(proba)
-proba = proba.replace(/Unicorns/, 'cupcakes')
-
-console.log(proba) */
 
 console.log(example);
 

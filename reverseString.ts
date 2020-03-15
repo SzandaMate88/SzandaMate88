@@ -9,7 +9,6 @@ function reverse(str) {
   console.log(str.split('').reverse().join(''));
 }
 console.log(reverse(toBeReversed));
-
 export = reverse;
 
 
