@@ -18,22 +18,16 @@ let hashmap = {
   11: '\n',
   3: 'say goodbye '
 };
-let hasString = hashmap.toString()
-
-function decode(a: string, b: string, array) {
-  let decoded : string = ''
-  if (a = b){
-    decoded = decoded.concat(b)
-  }else{
-    return decoded
-  }
-  
+let decoded2 = hashmap.toString()
+/* function decoder(array,string) {
+if ( array.property = string) {
+  array = array.push(string)
+  return array
+}else {
+  return array
 }
- let output: string = decode(string,hasString, Array)
-console.log(output)
-
-
-  
-
+}
+out = decoder(hashmap,string) */
 
 console.log(out)
+
