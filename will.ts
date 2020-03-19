@@ -1,4 +1,3 @@
-export{};
 'use strict';
 // Things are a little bit messed up
 // Your job is to decode the notSoCrypticMessage by using the hashmap as a look up table
@@ -6,6 +5,8 @@ export{};
 
 let out: string = '';
 let notSoCrypticMessage: number[] = [1, 12, 1, 2, 11, 1, 7, 11, 1, 49, 1, 3, 11, 1, 50, 11];
+
+/* notSoCrypticMessage.find(this: void); */
 
 let hashmap = {
   7: 'run around and desert you',
@@ -18,10 +19,11 @@ let hashmap = {
   3: 'say goodbye '
 };
 
+for (let i: number = 0; i < notSoCrypticMessage.length; i++) {
+   console.log(hashmap[notSoCrypticMessage[i]]);
+  }
 
-
-
-console.log(typeof(Object["values"](notSoCrypticMessage)))
-
-
-console.log(out)
+ for (let i: number = 0; i < notSoCrypticMessage.length; i++) {
+   out += hashmap[notSoCrypticMessage[i]];
+ }
+ console.log(out)

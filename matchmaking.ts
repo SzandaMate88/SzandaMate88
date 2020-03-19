@@ -12,27 +12,20 @@ function makingMatches(array : string[], array2: string[] ) {
   let matches: string[] = [];
   if (array.length >= array2.length) {
     array.forEach(function(value: String, index: number) {
-      matches.push(array[index])
-      if (array2[index] != undefined){
-        matches.push(array2[index])
-        
+      matches.push(array[index]);
+      if (array2[index] != undefined) {
+        matches.push(array2[index]);   
       }
     }) 
-  
-
   }else{
     array2.forEach(function(value: string, index: number) {
-      matches.push(array2[index])
-      if (array[index] != undefined){
-        matches.push(array[index])
-      }
-      
+      matches.push(array2[index]);
+      if (array[index] != undefined) {
+        matches.push(array[index]);
+      } 
     })
-  }return matches
-    
-  
+  }return matches;  
 }
 console.log(makingMatches(girls, boys));
-
 export = makingMatches;
 
