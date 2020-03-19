@@ -26,11 +26,23 @@ let array: string[] = [];
 console.log(array);
 array.push('William')
 
-console.log(array)
+console.log(array);
 
 array.push('John');
 array.push('Amanda');
 
-console.log(array.forEach(function(index,array) {
-  console.log(index);
-}));
+array.forEach(Element => console.log(Element));
+
+// remove 2nd element
+
+array.splice(1, 1);
+
+console.log(array);
+
+array.reverse().forEach(Element => console.log(Element))
+
+array.forEach(function(value: string, index:number) {
+  array.splice(0, 4, '')
+})
+
+console.log(array)
