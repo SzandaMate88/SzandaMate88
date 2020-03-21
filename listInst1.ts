@@ -24,7 +24,7 @@ Remove all elements */
 
 let array: string[] = [];
 console.log(array);
-array.push('William')
+array.push('William');
 
 console.log(array);
 
@@ -39,10 +39,10 @@ array.splice(1, 1);
 
 console.log(array);
 
-array.reverse().forEach(Element => console.log(Element))
+array.reverse().forEach(Element => console.log(Element));
 
 array.forEach(function(value: string, index:number) {
-  array.splice(0, 4, '')
+  array.splice(0, 4, '');
 })
 
-console.log(array)
+console.log(array);

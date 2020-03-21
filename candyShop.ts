@@ -11,8 +11,9 @@ let shopItems: any[] = ['Cupcake', 2, 'Brownie', false];
 
 shopItems.splice(1, 1,'Croissant');
 shopItems.splice(3,1,'Ice cream');
+let diabetes: string[] = [];
 function Sweets(array:any[]) {
   console.log(Object['values'](array))
 }
 Sweets(shopItems)
-
+/* console.log(shopItems); */
