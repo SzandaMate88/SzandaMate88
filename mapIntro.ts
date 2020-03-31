@@ -53,13 +53,13 @@ console.log(Object.keys(map).length);
 console.log(map['99']);
 
 delete map['97'];
-console.log(map)
+console.log(map);
 
 for(let i: number = Object.keys(map).length; i > 0; i--) {
   if (Object.keys(map)=== ['98'] ) {
-    console.log('There is an element with the key 100')
+    console.log('There is an element with the key 100');
   }else {
-    console.log('There is no such key in the object')
+    console.log('There is no such key in the object');
   }
 }
 

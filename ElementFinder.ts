@@ -7,9 +7,7 @@ export{};
 const numbers: number[] = [1, 2, 3, 4, 5, 6, 8, 7];
 
 function containsSeven(array: number[]) {
-if ( Number(Object.values(array)) === 7) {
-  console.log('Hoorray')
-}
+
 }
 
 console.log(containsSeven(numbers));

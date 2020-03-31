@@ -26,5 +26,5 @@ let avgSpending:number = prices.reduce(function(sum, element) {
     return sum + element;
 })/prices.length
 
-// totalSpending/prices.lenght
+
 console.log(avgSpending)
