@@ -10,7 +10,7 @@ const LineDistanceY: number = (canvas.height-border)/lineCount;
 
 for ( let i: number = 1; i < lineCount -1; i++) {
   ctx.beginPath();
-  ctx.strokeStyle = 'purple';
+  ctx.strokeStyle = 'yellow';
   ctx.moveTo((0+border+LineDistanceX)+ i * LineDistanceX, 0+border);
   ctx.lineTo(600-border,(0+border) + i * LineDistanceY);
   ctx.stroke();

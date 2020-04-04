@@ -2,7 +2,7 @@
 
 const canvas = document.querySelector('.main-canvas') as HTMLCanvasElement;
 const ctx = canvas.getContext('2d');
-const baseTriangleCount: number = 15;
+const baseTriangleCount: number = 2;
 const triangleWidth: number = 400/baseTriangleCount;
 const triangleHeightSquare: number = (triangleWidth*triangleWidth) - ((triangleWidth/2)*(triangleWidth/2));
 const triangleHeight: number =canvas.height/ Math.sqrt(triangleHeightSquare)

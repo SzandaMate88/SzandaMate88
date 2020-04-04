@@ -1,7 +1,7 @@
 'use strict';
 
 export class Animal {
-  private name: string;
+  private name: string = '';
   private hunger: number = 50;
   private thirst: number = 50;
 
